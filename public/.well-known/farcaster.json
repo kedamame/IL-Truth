@@ -1,17 +1,17 @@
 {
   "accountAssociation": {
-    "header": "YOUR_SIGNED_HEADER",
-    "payload": "YOUR_PAYLOAD",
-    "signature": "YOUR_SIGNATURE"
+    "header": "eyJmaWQiOjIxMTE4OSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDMxOTk5REZCMzI1NkQzMjNDQTA1N0RkMjBhREI1NkI4RUQ0NTE3NzQifQ",
+    "payload": "eyJkb21haW4iOiJpbC10cnV0aC52ZXJjZWwuYXBwIn0",
+    "signature": "SBpM1AFUc1zm2ILE8FsXuhtJlKh0CUjoXp5Bp96kM4AGTLnQM6inqf+gWYFUK3pNQ0a2cbam2gaPYVb70p+jDBs="
   },
   "frame": {
     "version": "1",
     "name": "IL Truth",
-    "iconUrl": "https://YOUR_DOMAIN/icon.png",
-    "homeUrl": "https://YOUR_DOMAIN",
-    "imageUrl": "https://YOUR_DOMAIN/og-image.png",
-    "splashImageUrl": "https://YOUR_DOMAIN/splash.png",
+    "iconUrl": "https://il-truth.vercel.app/icon.png",
+    "homeUrl": "https://il-truth.vercel.app",
+    "imageUrl": "https://il-truth.vercel.app/og-image.png",
+    "splashImageUrl": "https://il-truth.vercel.app/splash.png",
     "splashBackgroundColor": "#030712",
-    "webhookUrl": "https://YOUR_DOMAIN/api/webhook"
+    "webhookUrl": "https://il-truth.vercel.app/api/webhook"
   }
 }
