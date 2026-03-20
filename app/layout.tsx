@@ -16,10 +16,20 @@ export const metadata: Metadata = {
   title: "IL Truth",
   description: "DeFi LP impermanent loss calculator for Farcaster",
   other: {
-    "fc:frame": "vNext",
-    "fc:frame:image": "https://il-truth.vercel.app/api/og",
-    "fc:frame:button:1": "Open IL Truth",
-    "fc:frame:post_url": "https://il-truth.vercel.app/api/frame",
+    "fc:frame": JSON.stringify({
+      version: "next",
+      imageUrl: "https://il-truth.vercel.app/api/og",
+      button: {
+        title: "Open IL Truth",
+        action: {
+          type: "launch_frame",
+          name: "IL Truth",
+          url: "https://il-truth.vercel.app",
+          splashImageUrl: "https://il-truth.vercel.app/api/splash",
+          splashBackgroundColor: "#030712",
+        },
+      },
+    }),
   },
 };
 
