@@ -7,10 +7,10 @@
   "frame": {
     "version": "1",
     "name": "IL Truth",
-    "iconUrl": "https://il-truth.vercel.app/icon.png",
+    "iconUrl": "https://il-truth.vercel.app/api/icon",
     "homeUrl": "https://il-truth.vercel.app",
-    "imageUrl": "https://il-truth.vercel.app/og-image.png",
-    "splashImageUrl": "https://il-truth.vercel.app/splash.png",
+    "imageUrl": "https://il-truth.vercel.app/api/og",
+    "splashImageUrl": "https://il-truth.vercel.app/api/splash",
     "splashBackgroundColor": "#030712",
     "webhookUrl": "https://il-truth.vercel.app/api/webhook"
   }

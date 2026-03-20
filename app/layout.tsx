@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "DeFi LP impermanent loss calculator for Farcaster",
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "https://il-truth.vercel.app/og-image.png",
+    "fc:frame:image": "https://il-truth.vercel.app/api/og",
     "fc:frame:button:1": "Open IL Truth",
     "fc:frame:post_url": "https://il-truth.vercel.app/api/frame",
   },
